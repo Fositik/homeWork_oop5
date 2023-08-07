@@ -1,14 +1,15 @@
 package familytree.view.commands;
 
 
-
 import familytree.view.ConsoleUI;
 
 public class SortByFirstName implements Command {
     private final ConsoleUI consoleUI;
+
     public SortByFirstName(ConsoleUI consoleUI) {
         this.consoleUI = consoleUI;
     }
+
     @Override
     public String getDescription() {
         return "Отсортировать список по имени";
@@ -16,5 +17,12 @@ public class SortByFirstName implements Command {
 
     @Override
     public void execute() {
-        consoleUI.sortByFirstName();    }
+        consoleUI.sortByFirstName();
+    }
+
+    @Override
+    public String toString() {
+        return "Command: " + getDescription();
+    }
+
 }

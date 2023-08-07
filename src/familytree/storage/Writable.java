@@ -1,4 +1,4 @@
-package familytree.model.wriitable;
+package familytree.storage;
 import java.io.Serializable;
 
 public interface Writable {

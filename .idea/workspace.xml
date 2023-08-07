@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0b92b09-8a7f-4a7a-8270-866077a4160a" name="Changes" comment="" />
+    <list default="true" id="e0b92b09-8a7f-4a7a-8270-866077a4160a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/familytree/comparator/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/comparator/Ageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/comparator/Childbearing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/comparator/ChildrenCountComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/comparator/NameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/comparator/Nameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/familyTree/FamilyTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/familyTree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/model/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/service/PersonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/storage/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/storage/FileStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/familytree/storage/SerializationStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homeWork_oop5/familytree/presenter/Presenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homeWork_oop5/familytree/view/ConsoleUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homeWork_oop5/familytree/view/ConsoleUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/familyTree/FamilyTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/familyTree/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/person/PersonComparatorByBirthDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/person/PersonComparatorByChildrenCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/person/PersonComparatorByFistName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/presenter/Presenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/wriitable/FileHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/model/wriitable/Writable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/storage/Writable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/service/PresenterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/AddPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/AddPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/Finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/Finish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/GetChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/GetChildren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/GetPersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/GetPersonList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/LoadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/LoadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/SaveFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/SaveFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/SortByBirthDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/SortByBirthDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/SortByChildrenCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/SortByChildrenCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/familytree/view/commands/SortByFirstName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/familytree/view/commands/SortByFirstName.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,11 +88,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691321621987</updated>
-      <workItem from="1691321623553" duration="10346000" />
+      <workItem from="1691321623553" duration="39618000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/familytree/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/familytree/view/commands/AddPerson.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/familytree/view/ConsoleUI.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/familytree/view/View.java</url>
+          <line>3</line>
+          <properties class="familytree.view.View" method="start">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

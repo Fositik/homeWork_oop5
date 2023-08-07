@@ -20,4 +20,10 @@ public class Finish implements Command {
     public void execute() {
         consoleUI.finish();
     }
+
+    @Override
+    public String toString() {
+        return "Command: " + getDescription();
+    }
+
 }

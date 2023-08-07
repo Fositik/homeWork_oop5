@@ -1,14 +1,15 @@
 package familytree.view.commands;
 
 
-
 import familytree.view.ConsoleUI;
 
 public class SortByBirthDate implements Command {
     private final ConsoleUI consoleUI;
+
     public SortByBirthDate(ConsoleUI consoleUI) {
         this.consoleUI = consoleUI;
     }
+
     @Override
     public String getDescription() {
         return "Отсортировать список по возрасту";
@@ -18,4 +19,10 @@ public class SortByBirthDate implements Command {
     public void execute() {
         consoleUI.sortByBirthDate();
     }
+
+    @Override
+    public String toString() {
+        return "Command: " + getDescription();
+    }
+
 }

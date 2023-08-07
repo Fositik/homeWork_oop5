@@ -18,4 +18,10 @@ public class GetChildren implements Command {
     public void execute() {
         consoleUI.getChildren();
     }
+
+    @Override
+    public String toString() {
+        return "Command: " + getDescription();
+    }
+
 }
